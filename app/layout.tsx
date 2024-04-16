@@ -12,7 +12,7 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Morphic'
+const title = 'Generative AI | Zo'
 const description =
   'A fully open-source AI-powered answer engine with a generative UI.'
 
@@ -26,9 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title,
-    description,
-    card: 'summary_large_image',
-    creator: '@miiura'
+    description
   }
 }
 

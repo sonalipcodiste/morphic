@@ -30,7 +30,7 @@ export default function Page() {
           <Fragment>
             <Modal
               show
-              onHide={() => {}}
+              onHide={() => { }}
               backdrop="static"
               keyboard={false}
               centered
