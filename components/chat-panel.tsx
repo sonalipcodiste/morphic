@@ -73,10 +73,10 @@ export function ChatPanel() {
           className="rounded-full bg-secondary/80 group transition-all hover:scale-105"
           onClick={() => handleClear()}
         >
-          <span className="text-sm mr-2 group-hover:block hidden animate-in fade-in duration-300">
-            New
+          <span className="text-sm mr-2 group-hover:block animate-in fade-in duration-300">
+            New Search
           </span>
-          <Plus size={18} className="group-hover:rotate-90 transition-all" />
+          {/* <Plus size={18} className="group-hover:rotate-90 transition-all" /> */}
         </Button>
       </div>
     )
